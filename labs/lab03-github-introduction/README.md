@@ -71,7 +71,7 @@ Complete all of the following in your notes section.
 
 ## Instructions
 
-1. Take notes from the GitHub slides and incorperate into this assignment. (Creative freedom allowed, these are your notes.)
+1. Take notes from the GitHub slides and incorporate into this assignment. (Creative freedom allowed, these are your notes.)
 2. Your notes must demonstrate every Markdown feature listed in the checklist.
 3. Push your changes to GitHub.
 4. Find this README.md file online and copy the URL of this file from GitHub.
