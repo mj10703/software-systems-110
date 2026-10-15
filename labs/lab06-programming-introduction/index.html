@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
+    <h1>Jose Martinez</h1>
     <div class="page-layout">
 
         <aside class="sidebar">
@@ -24,10 +24,10 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;Say "Goodbye, World!"<br><br>
 
                 Otherwise<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say "Why am I even out here? It's cold."<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "Martinez says Why am I even out here? It's cold."<br><br>
 
                 Always<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say something so the world knows you are going inside now.
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "Martinez says I am tired of being outside. I am going inside now."
 
             </div>
 
@@ -145,7 +145,9 @@
                 doISayHello = true
                 doISayGoodbye = true
              
-                Observation:
+                Observation: Martinez says Hello, World!
+                The first if checks doISayHello, and it was true, so it ran.
+                Goodbye did not show because it stopped after the first if and never checked the else if.
             
                 ***********************************************************************
                 
@@ -153,7 +155,9 @@
                 doISayHello = false
                 doISayGoodbye = false
              
-                Observation:
+                Observation: Martinez says Why am I even out here? It’s cold.
+                Hello is false, Goodbye is false, so the else runs. 
+                That’s why it says “Martinez says Why am I even out here? It’s cold.”   
             
                 ***********************************************************************
 
@@ -161,7 +165,8 @@
                 doISayHello = true
                 doISayGoodbye = false
              
-                Observation:
+                Observation: Martinez says Hello, World!
+                The first if checks doISayHello, and it was true, so it ran.
 
                 ***********************************************************************    
 
@@ -169,8 +174,8 @@
                 doISayHello = false
                 doISayGoodbye = true
              
-                Observation:
-                
+                Observation: Martinez says Goodbye, World!
+                The else if checks doISayGoodbye, and it was true, so it ran.
             */
     
 
@@ -180,22 +185,22 @@
             if(doISayHello == true) {
 
                 // Assign a greeting message.
-                message = "Hello, World!";
+                message = "Martinez says Hello, World!";
 
             } else if(doISayGoodbye == true) {
 
                 // Assign a goodbye message.
-                message = "Goodbye, World!";
+                message = "Martinez says Goodbye, World!";
 
             } else {
 
                 // Assign a default message.
-                message = "Why am I even out here? It's cold.";
+                message = "watagata uvauvawata Martinez says Why am I even out here? It's cold.";
 
             }
 
             // Assign a message that always displays.
-            finalMessage = "I am tired of being outside. I am going inside now.";
+            finalMessage = "Martinez says I am tired of being outside. I am going inside now.";
 
             displayMessages(message, finalMessage);
 
